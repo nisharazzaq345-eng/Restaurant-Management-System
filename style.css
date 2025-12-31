@@ -1,0 +1,165 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+body {
+     margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    background-color: #1c1c1c;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f4b41a;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 5px;
+    color: #ccc;
+}
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+nav {
+    background-color: #000;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #f4b41a;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: white;
+    border-bottom: 2px solid #f4b41a;
+    padding-bottom: 5px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* ALL SECTION HEADINGS IN YELLOW */
+section h2 {
+    color: #f4b41a;
+    margin-bottom: 25px;
+}
+
+/* NORMAL PARAGRAPH STYLE */
+section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+/* =========================
+   HIGHLIGHT TEXT (YELLOW)
+========================= */
+.highlight {
+    color: #f4b41a;
+    font-weight: 500;
+}
+
+/* =========================
+   MENU LAYOUT
+========================= */
+.menu-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* =========================
+   MENU CARD
+========================= */
+.menu-card {
+    background-color: #1f1f1f;
+    width: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+/* MENU IMAGE */
+.menu-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+/* MENU TEXT */
+.menu-card h3 {
+    color: #f4b41a;
+    margin: 15px 0 5px;
+}
+
+.menu-card p {
+    font-size: 14px;
+    padding: 0 15px;
+    color: #ccc;
+}
+
+/* PRICE */
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff99;
+    margin: 15px 0 20px;
+}
+
+/* =========================
+   ABOUT PAGE LIST
+========================= */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    color: #f4b41a;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
