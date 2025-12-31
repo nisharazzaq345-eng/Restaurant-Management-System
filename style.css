@@ -74,14 +74,6 @@ section p {
 }
 
 /* =========================
-   HIGHLIGHT TEXT (YELLOW)
-========================= */
-.highlight {
-    color: #f4b41a;
-    font-weight: 500;
-}
-
-/* =========================
    MENU LAYOUT
 ========================= */
 .menu-container {
@@ -149,17 +141,5 @@ section ul li {
     font-size: 16px;
 }
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
-@media (max-width: 768px) {
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
 
-    .menu-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
